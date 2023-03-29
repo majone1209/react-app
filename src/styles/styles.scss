@@ -2,8 +2,9 @@
 @import "./base/base.scss";
 @import "./base/vars.scss";
 //components
+@import "./components/container.scss";
 @import "./components/header.scss";
-
-.test {
-  color: red;
-}
+@import "./components/navigation.scss";
+@import "./components/button.scss";
+@import "./components/checkbox.scss";
+@import "./components/form.scss";

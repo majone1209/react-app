@@ -1,15 +1,21 @@
 const Navigation = () => {
   return (
     <nav className="nav">
-      <ul>
+      <ul className="nav__list">
         <li>
-          <a href="">Navigacija</a>
+          <a className=" nav__list__item" href="">
+            Navigation
+          </a>
         </li>
         <li>
-          <a href="">O meni</a>
+          <a className=" nav__list__item" href="">
+            About
+          </a>
         </li>
         <li>
-          <a href="">Kontakt</a>
+          <a className=" nav__list__item" href="">
+            Contact
+          </a>
         </li>
       </ul>
     </nav>

@@ -1,0 +1,18 @@
+.button {
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    border: none;
+    padding: 1rem;
+    background-color: rgb(140, 168, 173);
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+    &:hover {
+      background-color: rgb(75, 132, 179);
+      color: white;
+    }
+  }
+}
