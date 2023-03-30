@@ -1,0 +1,20 @@
+.tags {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 300px;
+
+  &__tags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    margin: 0 auto;
+    border: gray;
+    border-radius: 10%;
+  }
+
+  &__tags__icon {
+    width: 20px;
+  }
+}

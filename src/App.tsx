@@ -2,7 +2,9 @@ import Header from "./components/header";
 import Navigation from "./components/navigation";
 import Button from "./components/button";
 import Checkbox from "./components/checkbox";
-import Form from "./components/form";
+import Field from "./components/field";
+import Tags from "./components/tags";
+import Pagination from "./components/pagination";
 import "./styles/styles.scss";
 
 const App = () => {
@@ -12,8 +14,11 @@ const App = () => {
       <Navigation />
       <Button />
       <Checkbox />
-      <Form />
-      <div className="container">Hello World</div>
+      <Tags />
+      <div className="container">
+        <Field />
+        <Pagination />
+      </div>
     </div>
   );
 };

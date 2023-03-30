@@ -1,0 +1,29 @@
+.field {
+  border: solid;
+  border-radius: 10px;
+  background-color: rgb(196, 142, 153);
+  margin: 2rem;
+  box-shadow: 20px 10px 5px 2px rgb(82, 46, 56);
+
+  &__label {
+    margin: 10px;
+    font-size: large;
+    display: block;
+  }
+
+  &__item {
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    background-color: rgb(148, 73, 114);
+    font-size: large;
+    border: none;
+    padding: 5px;
+    transition-duration: 0.4s;
+
+    &:hover {
+      background-color: rgb(196, 142, 153);
+      color: white;
+    }
+  }
+}

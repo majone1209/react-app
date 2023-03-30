@@ -1,9 +1,14 @@
 .checkbox {
   padding: 20px;
   font-size: xx-large;
+  font-style: oblique;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 4rem;
 
   &__item {
-    width: 50px;
+    width: 30px;
     cursor: pointer;
   }
 }
