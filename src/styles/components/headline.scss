@@ -1,0 +1,54 @@
+.headline {
+  display: flex;
+  justify-content: space-between;
+
+  &__icon {
+    width: 50px;
+  }
+
+  &__text {
+    display: flex;
+    align-items: center;
+  }
+
+  &--2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &--3 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.test {
+  &__item {
+    &--red {
+    }
+  }
+  &--red {
+    &--yellow {
+    }
+  }
+}
+
+.headline {
+  &--1 {
+    &__title {
+    }
+    &__desc {
+    }
+  }
+  &--2 {
+    &__title {
+    }
+  }
+}
+
+.test {
+  &--red {
+    &.isActive {
+    }
+  }
+}
