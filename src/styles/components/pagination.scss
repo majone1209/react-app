@@ -1,30 +1,30 @@
 .pagination {
-    display: flex;
-    justify-content: space-between;
-    width: 500px;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
 
-    &__icon {
-        width: 50px;
-        cursor: grab;
-        
-        &:hover {
-            transform: scale(1.5)
+  &__icon {
+    width: 50px;
+    cursor: grab;
+    transition-duration: 2s;
+
+    &:hover {
+      transform: scale(1.5);
     }
-}
+  }
 
-    &__number {
-        border: solid;
-        border-radius: 20%;
-        padding: 10px;
-        margin: auto 0;
-        background-color: cadetblue;
-        cursor: pointer;
-        transition-duration: 0.4s;
+  &__number {
+    border: solid;
+    border-radius: 20%;
+    padding: 10px;
+    margin: auto 0;
+    background-color: cadetblue;
+    cursor: pointer;
+    transition-duration: 0.4s;
 
-        &:hover {
-            background-color: rgb(122, 159, 160); 
-            color: white;
-
-        }
+    &:hover {
+      background-color: rgb(122, 159, 160);
+      color: white;
     }
+  }
 }
