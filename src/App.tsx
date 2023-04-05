@@ -8,6 +8,7 @@ import Pagination from "./components/pagination";
 import TransformExe from "./components/transform-exe";
 import Headline from "./components/headline";
 import "./styles/styles.scss";
+import Input from "./components/input";
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
       <div className="container">
         <h2>Navigation, Button, Checkbox, Tags and Field</h2>
         <Navigation />
-        <Button />
+        <Button value="Animate me" animate={true} />
         <Checkbox />
         <Tags />
         <Field />
@@ -25,6 +26,11 @@ const App = () => {
         <h2>Pagination</h2>
         <Pagination />
         <hr />
+        <div className="container">
+          <h2>Input</h2>
+          <Input label="First name" />
+          <Input label="Last name" rounded validation="Ovo je validacija" />
+        </div>
       </div>
       <div className="container">
         <h2>Transform property exercise</h2>

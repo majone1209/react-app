@@ -1,8 +1,17 @@
-const Button = () => {
+import { ReactNode } from "react";
+
+type ButtonProps = {
+  animate?: boolean;
+  value?: string;
+  icon?: ReactNode;
+};
+
+const Button = ({ animate, value = "Click me", icon }: ButtonProps) => {
   return (
-    <div className="button">
-      <button className="button__item">Click me</button>
-    </div>
+    <button className={`btn ${animate ? "btn--animate" : ""}`}>
+      {icon}
+      <span>{value}</span>
+    </button>
   );
 };
 
