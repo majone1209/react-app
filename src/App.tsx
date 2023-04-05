@@ -22,6 +22,7 @@ const App = () => {
         <Tags />
         <Field />
         <hr />
+        <h2>Pagination</h2>
         <Pagination />
         <hr />
       </div>

@@ -14,41 +14,21 @@
   &--2 {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__text2 {
+    display: flex;
   }
 
   &--3 {
     display: flex;
     justify-content: center;
+    align-items: center;
+  }
+
+  &__text3 {
+    align-items: center;
   }
 }
 
-.test {
-  &__item {
-    &--red {
-    }
-  }
-  &--red {
-    &--yellow {
-    }
-  }
-}
-
-.headline {
-  &--1 {
-    &__title {
-    }
-    &__desc {
-    }
-  }
-  &--2 {
-    &__title {
-    }
-  }
-}
-
-.test {
-  &--red {
-    &.isActive {
-    }
-  }
-}

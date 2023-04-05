@@ -8,10 +8,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(209, 212, 213);
     margin: 0 auto;
     border: gray;
-    border-radius: 10%;
+    border-radius: 20%;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 250ms ease;
+
+    &:hover {
+      background-color: rgb(143, 200, 207);
+      color: black;
+    }
   }
 
   &__tags__icon {
