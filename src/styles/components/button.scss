@@ -13,21 +13,23 @@
   }
 }
 
-.button {
+.btn {
   display: flex;
   justify-content: center;
+  width: 100%;
+  border: none;
+  padding: 1rem;
+  background-color: rgb(51, 104, 184);
+  font-size: 20px;
+  cursor: pointer;
+  transition-duration: 0.4s;
 
-  &-__item {
-    border: none;
-    padding: 1rem;
-    background-color: rgb(51, 104, 184);
-    font-size: 20px;
-    cursor: pointer;
-    transition-duration: 0.4s;
+  &:active {
+    animation: move 2s linear infinite normal;
+    background-color: rgb(28, 92, 117);
+  }
 
-    &:active {
-      animation: move 2s linear infinite normal;
-      background-color: rgb(28, 92, 117);
-    }
+  @media (min-width: 48em) {
+    width: 15rem;
   }
 }

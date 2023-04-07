@@ -3,6 +3,7 @@
   border: 1px solid red;
   display: block;
   margin-bottom: 1rem;
+  width: 100%;
 
   &--rounded {
     border-radius: 0.5rem;
@@ -10,5 +11,9 @@
 
   &--validation {
     color: royalblue;
+  }
+
+  @media (min-width: 48em) {
+    width: 15em;
   }
 }

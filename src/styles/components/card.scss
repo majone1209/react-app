@@ -1,0 +1,37 @@
+.card {
+  background-color: sandybrown;
+  border: black solid;
+  border-radius: 30px;
+  margin: auto 0;
+  padding: 20px;
+  width: 300px;
+
+  &__img {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  &__footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+    button {
+      width: unset;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    @media (min-width: $media-md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: $media-lg) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}

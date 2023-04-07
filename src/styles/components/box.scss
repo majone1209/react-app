@@ -9,6 +9,11 @@
   &__wrapper {
     display: flex;
     justify-content: space-evenly;
+    flex-direction: column;
+
+    @media (min-width: 48em) {
+      flex-direction: row;
+    }
   }
 
   &--translate {

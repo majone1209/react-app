@@ -9,6 +9,7 @@ import TransformExe from "./components/transform-exe";
 import Headline from "./components/headline";
 import "./styles/styles.scss";
 import Input from "./components/input";
+import Card from "./components/card";
 
 const App = () => {
   return (
@@ -41,6 +42,15 @@ const App = () => {
         <h2>Flex exercise</h2>
         <Headline />
         <hr />
+      </div>
+      <div>
+        <h2>Card vježba</h2>
+        <div className="card__grid">
+          <Card title="Sand" desc="Ovo je prvi tekst o pijesku" />
+          <Card title="Sun" desc="Ovo je drugi tekst o Suncu" />
+          <Card title="Brown" desc="Ovo je treći tekst o smeđoj" />
+          <Card title="Dune" desc="Ovo je četvrti tekst o dini" />
+        </div>
       </div>
     </div>
   );
