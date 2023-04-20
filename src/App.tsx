@@ -4,6 +4,7 @@ import Exe from "./pages/exe";
 import Home from "./pages/home";
 import Ispit from "./pages/ispit";
 import Mlinar from "./pages/mlinar";
+import Varijable from "./pages/varijable";
 import "./styles/styles.scss";
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
     { path: "/ispit", element: <Ispit /> },
     { path: "/exe", element: <Exe /> },
     { path: "/mlinar", element: <Mlinar /> },
+    { path: "/varijable", element: <Varijable /> },
   ]);
 
   return (

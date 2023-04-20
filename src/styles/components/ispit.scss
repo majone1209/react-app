@@ -1,6 +1,6 @@
 @keyframes slide-down {
   from {
-    transform: translate3d(0, -30rem, 0);
+    transform: translate3d(0, -40rem, 0);
   }
   to {
     transform: translate3d(0, 0, 0);
@@ -17,27 +17,28 @@
   font-size: 5rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
-  transform: translate3d(0, -30rem, 0);
+  transform: translate3d(0, -40rem, 0);
 
   &--black {
     background-color: #34495e;
-    animation: slide-down 1s ease forwards;
+    animation: slide-down 1.5s ease forwards;
   }
 
   &--red {
     background-color: #e74c3c;
-    animation: slide-down 2s ease forwards;
+    animation: slide-down 1.5s ease forwards;
+    animation-delay: 1s;
   }
 
   &--yellow {
     background-color: #e67e22;
-    animation: slide-down 4s ease forwards;
+    animation: slide-down 1.5s ease forwards;
+    animation-delay: 2s;
   }
 
   &__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 20rem;
     padding-left: 10rem;
   }
 }
