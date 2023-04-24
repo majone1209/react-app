@@ -70,7 +70,7 @@ const Varijable = () => {
         <button onClick={() => handleValue()}>Submit</button>
       </div>
       <hr />
-      <div>Rezultat naše funckije je: {addOnOurValue(5, 4)}</div>
+      <div>Rezultat naše funkcije je: {addOnOurValue(5, 4)}</div>
       <hr />
       <div>
         <h4>Vrijednosti našeg objekta su:</h4>
