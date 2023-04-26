@@ -6,6 +6,7 @@ import Ispit from "./pages/ispit";
 import Mlinar from "./pages/mlinar";
 import Petlje from "./pages/petlje";
 import Varijable from "./pages/varijable";
+import Vjezba2604 from "./pages/vjezba2604";
 import "./styles/styles.scss";
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
     { path: "/mlinar", element: <Mlinar /> },
     { path: "/varijable", element: <Varijable /> },
     { path: "/petlje", element: <Petlje /> },
+    { path: "/vjezba2604", element: <Vjezba2604 /> },
   ]);
 
   return (
