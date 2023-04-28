@@ -60,17 +60,6 @@ const Vjezba2604 = () => {
     return car[key];
   };
 
-  //Zadatak
-
-  const brojevi = [12, 9, 22, 2, 5, 67, 99];
-  let highestNumber = 0 
-
-  const greatestNumber = (brojevi) => {
-      let najveci=
-    for (let i = 0; brojevi {} arr.length; brojevi++);
-    if ()
-  };
-
   return (
     <div className="container">
       <h1>Nizovi</h1>
@@ -80,7 +69,6 @@ const Vjezba2604 = () => {
       <div>{recenica}</div>
       <div>{JSON.stringify(car, null, 2)}</div>
       <div>{printValue("snaga")}</div>
-      <div>{brojevi}</div>
     </div>
   );
 };
