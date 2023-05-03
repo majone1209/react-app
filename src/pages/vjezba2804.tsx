@@ -145,16 +145,6 @@ const Vjezba2804 = () => {
   }
   console.log(youngestPerson);
 
-  //Zadatak 2
-
-  let personM = frontendRazred[0].name;
-  for (let i = 0; frontendRazred.; i++) {
-      if (personM.split("M")
-      )
-  }
-
-
-
   return (
     <div className="container">
       <h1>Vjezba 2804</h1>
@@ -194,5 +184,20 @@ const Vjezba2804 = () => {
     </div>
   );
 };
+
+//dz
+
+let ime = "Maja";
+let age = 32;
+
+if (age > 40) {
+  console.log("Imam više od 40 godina");
+} else {
+  console.log("Nemam više od 40 godina");
+}
+
+let length = ime.length;
+
+console.log("The length of the name is:" + length);
 
 export default Vjezba2804;
