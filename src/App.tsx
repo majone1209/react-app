@@ -6,6 +6,7 @@ import Home from "./pages/home";
 import Ispit from "./pages/ispit";
 import Mlinar from "./pages/mlinar";
 import Petlje from "./pages/petlje";
+import Pokemons from "./pages/pokemons";
 import Varijable from "./pages/varijable";
 import Vjezba0305 from "./pages/Vjezba0305";
 import Vjezba2604 from "./pages/vjezba2604";
@@ -27,6 +28,7 @@ const App = () => {
     { path: "/vjezba2804", element: <Vjezba2804 /> },
     { path: "/vjezba0305", element: <Vjezba0305 /> },
     { path: "/breweries", element: <Breweries /> },
+    { path: "/pokemons", element: <Pokemons /> },
   ]);
 
   return (
