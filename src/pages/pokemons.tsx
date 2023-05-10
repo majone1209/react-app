@@ -50,8 +50,8 @@ const Pokemons = () => {
         return response.json();
       })
       .then((data) => {
-        console.log(data[0].flags.png);
-        setFlag(data[0].flags.png);
+        console.log(data[0].flags);
+        setFlag(data[0].flags);
       })
       .catch((error) => {
         console.log(error);
@@ -74,6 +74,17 @@ const Pokemons = () => {
           type="text"
         />
         <button onClick={() => searchPokemon(search)}>Search</button>
+      </div>
+      <div>
+        {searchData ? (
+          <div>
+            <div>{searchData.name}</div>
+          </div>
+        ) : (
+          <div>
+            Ne nalazim Pokemona pod imenom {search}. Pokusaj neko drugo ime.
+          </div>
+        )}
       </div>
       {/* <div>
         <h1>All berries</h1>
