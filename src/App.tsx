@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Header from "./components/header";
+import Africa from "./pages/africa";
 import Breweries from "./pages/breweries";
 import Europe from "./pages/europe";
 import Exe from "./pages/exe";
@@ -31,6 +32,7 @@ const App = () => {
     { path: "/breweries", element: <Breweries /> },
     { path: "/pokemons", element: <Pokemons /> },
     { path: "/europe", element: <Europe /> },
+    { path: "/africa", element: <Africa /> },
   ]);
 
   return (
