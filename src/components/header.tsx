@@ -50,6 +50,9 @@ const Header = () => {
               <a className="header__nav__item" href="/africa">
                 Africa
               </a>
+              <a className="header__nav__item" href="/chatbox">
+                Chatbox
+              </a>
             </nav>
           </div>
           <div>
