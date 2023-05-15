@@ -15,6 +15,7 @@ import Vjezba2604 from "./pages/vjezba2604";
 import Vjezba2804 from "./pages/vjezba2804";
 import "./styles/styles.scss";
 import ChatBox from "./pages/chatbox-dz";
+import Vjezba1505 from "./pages/1505";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -35,6 +36,7 @@ const App = () => {
     { path: "/europe", element: <Europe /> },
     { path: "/africa", element: <Africa /> },
     { path: "/chatbox", element: <ChatBox /> },
+    { path: "/vjezba1505", element: <Vjezba1505 /> },
   ]);
 
   return (
