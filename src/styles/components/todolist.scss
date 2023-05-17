@@ -1,0 +1,63 @@
+.todolist {
+  margin: 4rem auto;
+  padding: 2rem 3rem 3rem;
+  max-width: 500px;
+  background: #479bdf;
+  color: rgb(5, 6, 47);
+  box-shadow: -40px -50px 0px 0px rgba(119, 122, 124, 0.1);
+
+  &__list {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  &__header {
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &__input {
+    width: 300px;
+  }
+
+  &__btn {
+    background-color: rgb(54, 93, 138);
+    border: none;
+    color: rgb(5, 6, 47);
+    font-size: large;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 5px 5px rgb(215, 224, 230);
+    border-radius: 20%;
+
+    &:hover {
+      background-color: #8cb3d3;
+      &::after {
+        background-color: #536453;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+    }
+  }
+
+  &__item {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__item {
+      font-size: large;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
+  }
+
+  img {
+    width: 50px;
+  }
+}
