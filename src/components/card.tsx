@@ -15,7 +15,7 @@ const Card = ({ title, desc }: CardProps) => {
       />
       <h2 className="card__title">{title}</h2>
       <p className="card__desc">{desc}</p>
-      <div className="card__footer newClass">
+      <div className="card__footer newClass__card">
         <Button value="OK" />
         <Button value="Cancel" />
       </div>
