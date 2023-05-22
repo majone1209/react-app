@@ -11,8 +11,8 @@ const Header = () => {
         <div className="header__actions">
           <div className="header__nav">
             <nav>
-              <a className="header__nav__item" href="/">
-                Homeeeeeee
+              <a className="header__nav__item nekaDrugaClassa" href="/">
+                Home
               </a>
               <a className="header__nav__item" href="/exe">
                 Exercises
