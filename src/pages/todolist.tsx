@@ -22,6 +22,7 @@ const testData: ToDoListItem[] = [
 
 const ToDoList = () => {
   const [listItems, setListItems] = useState<ToDoListItem[]>(testData);
+  const [mainList, setMainList] = useState<ToDoListItem[]>([]);
 
   return (
     <div className="todolist">

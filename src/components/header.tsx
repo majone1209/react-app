@@ -12,7 +12,7 @@ const Header = () => {
           <div className="header__nav">
             <nav>
               <a className="header__nav__item" href="/">
-                Home
+                Homeeeee
               </a>
               <a className="header__nav__item" href="/exe">
                 Exercises
