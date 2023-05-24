@@ -11,7 +11,7 @@ const Header = () => {
         <div className="header__actions">
           <div className="header__nav">
             <nav>
-              <a className="header__nav__item nekaDrugaClassa" href="/">
+              <a className="header__nav__item" href="/">
                 Home
               </a>
               <a className="header__nav__item" href="/exe">
@@ -58,6 +58,9 @@ const Header = () => {
               </a>
               <a className="header__nav__item" href="/todolist">
                 To do list
+              </a>
+              <a className="header__nav__item" href="/povijestplesa">
+                Povijest plesa
               </a>
             </nav>
           </div>
