@@ -24,24 +24,32 @@ const PovijestPlesa = () => {
             >
               {century.century}
             </div>
-            
           );
         })}
+        <div className="line"></div>
       </div>
-      <div>
-        <h1 className="naslov">Info</h1>
+      <h1 className="naslov">Info</h1>
+      <div className="information">
         {historyData ? (
           <div className="timeline__container">
-            <div className="timeline__container--item1">{historyData.title}</div>
+            <div className="timeline__container--item1">
+              {historyData.title}
+            </div>
             <hr />
-            <div className="timeline__container--item2">{historyData.subtitle}</div>
+            <div className="timeline__container--item2">
+              {historyData.subtitle}
+            </div>
             <hr />
-            <div className="timeline__container--item3">{historyData.content}</div>
+            <div className="timeline__container--item3">
+              {historyData.content}
+            </div>
             <hr />
-            <div className="timeline__container--item4"><a href={historyData.image}>Klikni za sliku</a></div>
+            <div className="timeline__container--item4">
+              <a href={historyData.image}>Klikni za sliku</a>
+            </div>
           </div>
         ) : (
-          "Odaberi neko stoljeće"
+          "Odaberi stoljeće..."
         )}
       </div>
     </div>

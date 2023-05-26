@@ -1,10 +1,20 @@
-.chat-container {
+.chatbox__wrapper {
   width: 400px;
   height: 400px;
   border: 1px solid #ccc;
   padding: 10px;
   overflow-y: scroll;
-  background-color: cadetblue;
+  background-image: linear-gradient(
+    to right,
+    rgb(78, 131, 65),
+    rgb(164, 226, 156)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(21, 46, 28);
+  margin: auto;
+  margin-top: 50px;
 }
 
 .messages {
@@ -12,8 +22,8 @@
   padding: 0;
 }
 
-.user-input {
-  width: 90%;
+.use__input {
+  width: 100%;
   padding: 5px;
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
