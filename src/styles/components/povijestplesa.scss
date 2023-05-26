@@ -1,6 +1,6 @@
 .timeline {
-  border: solid;
-  background-color: cornsilk;
+  
+  background-color: rgb(220, 255, 254);
   width: 50%;
   display: flex;
   justify-content: space-between;
@@ -8,15 +8,64 @@
   width: auto;
   height: 200px;
   padding: 20px;
-  margin: auto 0;
+  margin: 20px;
+ 
   &__box {
     height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100px;
     border: none;
     background-color: cadetblue;
     border-radius: 10px;
     padding: 20px;
     font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Lucida Handwriting", cursive;
+    cursor: pointer;
+    animation: slide-down 1.5s ease forwards;
+
+    &:hover {
+      background-color: #8cb3d3;
+      &::after {
+        background-color: #536453;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+    }
+
+    
+}
+
+  &__container {
+    width: 600px;
+    background-color: cadetblue;
+    padding: 20px;
+    box-shadow: -40px -50px 0px 0px rgba(65, 80, 90, 0.1);
+    animation: slide-down 1.5s ease forwards;
+
+    
+    &--item1 {
+      font-size: large;
+      font-family: "Lucida Handwriting", cursive;
+    }
+
+    &--item2 {
+      font-family: georgia;
+    }
+
+    &--item3 {
+      font-family: georgia;
+    }
+
+    &--item4 {
+      font-family: georgia;
+
+    }
   }
+}
+
+.naslov {
+  font-size: large;
+  font-family: "Lucida Handwriting", cursive;
 }

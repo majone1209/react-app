@@ -1,12 +1,14 @@
 export type Timeline = {
   id: number;
   century: number;
-  data: {
-    title: string;
-    subtitle: string;
-    content: string;
-    image: string;
-  };
+  data: DanceType;
+};
+
+export type DanceType = {
+  title: string;
+  subtitle: string;
+  content: string;
+  image: string;
 };
 
 export const timelineData = [
@@ -62,7 +64,7 @@ export const timelineData = [
       title: "Tango, rumba, samba, foxtrot, balet i jazz",
       subtitle: "svijet u 20. stoljeću",
       content:
-        "U XX. st. izvor novih društvenih plesova bile su Sjeverna i Južna Amerika, a među prvima je u Europu stigao tango. Razvoj plesa u XX. st. povezan je s pojavom i razvojem jazza. Nakon I. svjetskog rata u Europu su pristigli plesovi crnačkoga podrijetla cakewalk, twostep, onestep, a zatim i ragtime te njemu srodan fokstrot, shimmy, swing i boogie-woogie, koji je oko 1950. poprimio različita imena: jitterbug, be-bop, rock’n’roll. Ti su plesovi nastali u sjevernoameričkoj industrijskoj civilizaciji, a stvorilo ih je urbanizirano crnačko stanovništvo. Južnoamerički plesovi kreolskih Crnaca strastveniji su: rumba, samba, merengue, kalipso, ča-ča-ča. Na prijelazu iz XIX. u XX. st. pojavio se, kao odgovor klasičnomu baletu, moderni ples koji dopušta slobodnije pokrete i više osobnog izraza. Razvio se kao pobuna, kao umjetnost revolucionarna i nemirna duha, a odlikuju ga česte promjene u stilu koje donosi gotovo svaki novi naraštaj. Moderni ples u svojem se izričaju bavi sadašnjošću u sociološkom, kulturološkom i političkom smislu te prije svega ljudskim emocijama.",
+        "U XX. st. izvor novih društvenih plesova bile su Sjeverna i Južna Amerika, a među prvima je u Europu stigao tango. Razvoj plesa u XX. st. povezan je s pojavom i razvojem jazza. Nakon I. svjetskog rata u Europu su pristigli plesovi crnačkoga podrijetla cakewalk, twostep, onestep, a zatim i ragtime te njemu srodan fokstrot, shimmy, swing i boogie-woogie, koji je oko 1950. poprimio različita imena: jitterbug, be-bop, rock'n'roll. Ti su plesovi nastali u sjevernoameričkoj industrijskoj civilizaciji, a stvorilo ih je urbanizirano crnačko stanovništvo. Južnoamerički plesovi kreolskih Crnaca strastveniji su: rumba, samba, merengue, kalipso, ča-ča-ča. Na prijelazu iz XIX. u XX. st. pojavio se, kao odgovor klasičnomu baletu, moderni ples koji dopušta slobodnije pokrete i više osobnog izraza. Razvio se kao pobuna, kao umjetnost revolucionarna i nemirna duha, a odlikuju ga česte promjene u stilu koje donosi gotovo svaki novi naraštaj. Moderni ples u svojem se izričaju bavi sadašnjošću u sociološkom, kulturološkom i političkom smislu te prije svega ljudskim emocijama.",
       image: "https://www.centralhome.com/img/jive-662w.jpg",
     },
   },

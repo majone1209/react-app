@@ -1,4 +1,4 @@
-import logo from "./../assets/Apple-Logo.png";
+import logo from "./../assets/location.png";
 import hamburger from "./../assets/icon-hamburger.svg";
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
         </div>
         <div className="header__actions">
           <div className="header__nav">
-            <nav>
+            <nav className="header__nav__nav">
               <a className="header__nav__item" href="/">
                 Home
               </a>

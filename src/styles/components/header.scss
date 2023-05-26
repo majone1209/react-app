@@ -1,8 +1,9 @@
 .header {
   background-color: $header-background;
+  max-width: auto;
 
   &__inner {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -14,6 +15,12 @@
     display: flex;
     justify-content: center;
     margin-right: 2rem;
+
+    &__nav {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
 
     &__item {
       text-decoration: none;

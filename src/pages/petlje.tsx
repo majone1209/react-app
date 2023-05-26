@@ -20,12 +20,19 @@ const Petlje = () => {
     const opsegKruga = 3.14 * inputValue * 2;
     console.log(opsegKruga);
 
+    let x = []
+    for (let i = 0; i < inputValue; i++) {
+      x.push(i + ",")
+    }
+    console.log(x);
+ };
     //Zadatci
     //1. ispisati u konzolu jeli zadani broj neparan
     //2. ispisati u konzolu brojeve od 0 do zadanog broja
     //3. izračunaj opseg kruga gdje je zadani broj polumjer (pi*r*2)
     //4. Do zadanog broja ispisati string
-  };
+
+ 
   return (
     <div className="container">
       <h1>Petlje</h1>
