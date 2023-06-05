@@ -62,6 +62,9 @@ const Header = () => {
               <a className="header__nav__item" href="/povijestplesa">
                 Povijest plesa
               </a>
+              <a className="header__nav__item" href="/instagram">
+                Instagram
+              </a>
             </nav>
           </div>
           <div>

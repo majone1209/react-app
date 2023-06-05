@@ -18,6 +18,7 @@ import ChatBox from "./pages/chatbox-dz";
 import Vjezba1505 from "./pages/1505";
 import ToDoList from "./pages/todolist";
 import PovijestPlesa from "./pages/povijestplesa";
+import Instagram from "./pages/instagram/instagram";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -41,6 +42,7 @@ const App = () => {
     { path: "/vjezba1505", element: <Vjezba1505 /> },
     { path: "/todolist", element: <ToDoList /> },
     { path: "/povijestplesa", element: <PovijestPlesa /> },
+    { path: "/instagram", element: <Instagram /> },
   ]);
 
   return (
